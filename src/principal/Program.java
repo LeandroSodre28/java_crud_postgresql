@@ -28,12 +28,15 @@ public class Program {
 			break;		
 			
 		case 2:
+			clienteController.atualizarCliente();
 			break;
 			
 		case 3:
+			clienteController.excluirCliente();
 			break;
 			
 		case 4:
+			clienteController.consultarClientes();
 			break;
 			
 			default:
